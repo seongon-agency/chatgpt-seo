@@ -23,3 +23,46 @@ git branch
 - main is the branch's name.
 - green highlighted -> we are on that branch.
 
+## Create a new branch
+Create a new branch
+```Python
+git branch [Branch_name]
+git branch markdown_to_supabase
+```
+
+Switch to a branch
+```Python
+git checkout [Branch_name]
+git checkout supabase_to_markdown
+```
+
+Delete a branch
+```Python
+git branch -d [Branch_name]
+```
+
+# Git add
+- Add files to "Version"
+
+```Python
+git add .
+```
+
+(add all the current files in the folder into the snapshot)
+
+# Git commit
+- Take the snapshot
+
+```Python
+git commit -m "message"
+git commit -m "added git-notes.md file"
+```
+
+# Git push
+- PUsh all the changes to Github
+
+```Python
+git push [remote_name] [branch_name]
+
+git push origin main
+```
